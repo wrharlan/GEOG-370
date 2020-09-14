@@ -1,0 +1,607 @@
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Geospatial & Technology Management Office
+        Publication_Date: 20101231
+        Title: North Carolina Statewide Digital Orthoimagery Project 2010
+        Geospatial_Data_Presentation_Form: Raster digital data
+        Publication_Information:
+          Publication_Place: Raleigh, NC
+          Publisher: Geospatial & Technology Management Office on behalf of the City of Durham and the North Carolina 911 Board
+    Description:
+      Abstract: The North Carolina 911 Board awarded a grant of $12.3 million to the City of Durham's Emergency Communications Center on September 25, 2009 for acquisition of statewide orthoimagery (aerial photography for base mapping purposes). The City of Durham recognized that the value of up-to-date, consistent orthoimagery would apply equally to its neighboring counties. The situation in North Carolina in 2009 was a patchwork of imagery (years captured and resolutions) and a slow pace of new imagery acquisition in difficult economic times. The Durham PSAP concluded that a statewide project would maximize benefits in a timely way.  The products of the statewide project are orthoimagery in true color, 6-inch ground resolution in 5,000 by 5,000-foot tiles, in uncompressed and compressed formats, packaged by county for all 100 counties in North Carolina.  The project was managed by the NC Center for Geographic Information and Analysis (CGIA) in the NC OneMap framework of data access. CGIA collaborated with the Geospatial & Technology Management Office to take advantage of the Qualifications-Based Selection contracts in place for orthoimagery acquisition, the NC Geodetic Survey to assure positional accuracy of the new products, and the Statewide Mapping Advisory Committees Working Group for Orthophotography Planning for technical advice. Images were collected with digital cameras in early 2010, image processing and quality control occurred through 2010, and products became available in early 2011. Data will be downloadable through NC OneMap.
+      Purpose: This dataset was generated to provide a consistent reference map for base mapping and display in emergency 911 operations and GIS applications.
+      Supplemental_Information: This dataset is one of 100 county datasets produced in a statewide project.  The bounding coordinates in this metadata file represent the bounding coordinates for all image tiles in project area as a whole, not an individual tile.
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2010
+      Currentness_Reference: Ground condition
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: As needed
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -82.890892
+        East_Bounding_Coordinate: -82.159657
+        North_Bounding_Coordinate: 35.833175
+        South_Bounding_Coordinate: 35.409017
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: Aerial image
+        Theme_Keyword: Orthoimagery
+        Theme_Keyword: Basemap
+        Theme_Keyword: Natural color
+        Theme_Keyword: Digital orthophoto
+        Theme_Keyword: Orthophotography
+      Place:
+        Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER
+        Place_Keyword: Buncombe County
+        Place_Keyword: North Carolina
+    Access_Constraints: None
+    Use_Constraints: The State of North Carolina shall not be held liable for any errors in this dataset, including visual content and positional accuracy of this imagery.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Hope Morgan
+          Contact_Organization: Geospatial & Technology Management Office, NC Division of Emergency Management
+        Contact_Position: GIS Manager
+        Contact_Address:
+          Address_Type: mailing and physical
+          Address: 1812 Tillery Place, Suite 105
+          City: Raleigh
+          State_or_Province: NC
+          Postal_Code: 27604
+          Country: U.S.
+        Contact_Voice_Telephone: 919-715-5711 Ext. 104
+        Contact_Facsimile_Telephone: 919-715-0408
+        Contact_Electronic_Mail_Address: hmorgan@ncem.org
+        Hours_of_Service: 0900-1600 M-F EST
+    Data_Set_Credit: This collaborative project included significant roles by the following (1) The Durham Emergency Communications Center was awarded a grant by (2) the North Carolina 911 Board to acquire statewide orthoimagery in 2010. (3) NC Department of Crime Control and Public Safety, Geospatial & Technology Management Office leveraged its qualifications-based selection contracts and managed the planning, acquisition, processing, and quality control of the data.  (4) NC Geographic Information Coordinating Council's Statewide Mapping Advisory Committee, Working Group for Orthophotography Planning provided technical advice.  (5) Durham City/County GIS provided technical advice.  (6) NC Department of Environment and Natural Resources, Geodetic Survey managed upgrades to the Continuously Operating Reference Station (CORS) network, established a camera calibration range, and played a key role in ground control as well as horizontal quality control of the data.  (7) NC Secretary of State's Office, Land Records Management Program provided NC Technical Specifications for Digital Orthophoto Base Mapping (2009) and technical advice.  (8) The NC Center for Geographic Information and Analysis managed the overall project including outreach, product verification and distribution, and data access via NC OneMap.
+    Security_Information:
+      Security_Classification_System: None
+      Security_Classification: Unclassified
+      Security_Handling_Description: None
+    Native_Data_Set_Environment: Delorme XMap, Z/I Intergraph DMC and orthophotography software packages, Applanix PosPac, ArcGIS, Global Mapper, SIS Accuracy Analyst.
+  Data_Quality_Information:
+    Logical_Consistency_Report: Compliance with the required horizontal accuracy standard is supported by the placement of photo identifiable ground control points and the collection of airborne GPS and IMU data during the aerial missions. The North Carolina Flood Mapping Program?s (NCFMP) LiDAR-derived Digital Elevation Model (DEM) was utilized during the ortho rectification process. Horizontal accuracy was validated by comparing the ground control values (X,Y) of each photo identifiable ground control point obtained using survey grade GPS with its corresponding values (X,Y) measured from the final orthophoto. An overall horizontal RMSE x or y value was then calculated to verify compliance with the required horizontal accuracy not to exceed 4 foot RMSE X or Y. All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.
+    Completeness_Report: Ortho images are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud and smoke free to no more than 5 percent of an area in any one image.  Imagery was collected with a sun angle of no less than 33 degrees. Photography was flown during leaf-off conditions in the winter/spring of 2010.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report: The 0.5? pixel GSD orthophotos were designed to meet ASPRS Class 2 horizontal accuracies at a design scale of 1:2400 (1= 200) where the limiting RMSE in either X or Y is not greater than 4.0. This requirement will not be applicable in areas where the ground is obscured on the aerial imagery by foliage, prevalent smoke, or dense shadow or for any ortho imagery that falls outside the State boundaries where NCFMP LiDAR DTM was not available and best available USGS DEM sources may have been used. Spatial Information Solution's Accuracy Analyst was used to generate reports for each block.
+      Vertical_Positional_Accuracy:
+        Vertical_Positional_Accuracy_Report: There is no vertical component for this set of orthoimagery.
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: RAW Aerial Imagery
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: raster digital data
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Type_of_Source_Media: stable-base material
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Multiple_Dates/Times:
+              Single_Date/Time:
+                Calendar_Date: 20100319
+              Single_Date/Time:
+                Calendar_Date: 20100324
+              Single_Date/Time:
+                Calendar_Date: 20100327
+              Single_Date/Time:
+                Calendar_Date: 20100330
+              Single_Date/Time:
+                Calendar_Date: 20100331
+              Single_Date/Time:
+                Calendar_Date: 20100401
+              Single_Date/Time:
+                Calendar_Date: 20100402
+              Single_Date/Time:
+                Calendar_Date: 20100404
+              Single_Date/Time:
+                Calendar_Date: 20100405
+              Single_Date/Time:
+                Calendar_Date: 20100406
+              Single_Date/Time:
+                Calendar_Date: 20100413
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: FRAME
+        Source_Contribution: The 2010 imagery acquisition and aerotriangulation phases for the State of North Carolina was assigned, planned and conducted in four regional areas: Coastal, East Piedmont, West Piedmont and Mountain.   Each area was apportioned into discrete imagery collection blocks and flying resources were assigned accordingly.  Buncombe County, NC falls mostly inside Sanborns Mountain Region AT Block 29, with small portions falling in Blocks 25, 28 and 24.  Digital stereoscopic aerial imagery was obtained of Buncombe County, NC using a large format Zeiss/Intergraph Digital Mapping Camera (DMC) over 11 flight dates. Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph. Aerial imagery was exposed at an altitude of approximately 5000' above mean terrain yielding an approximate GSD of .5 feet. The aerial images are used to AT the project and in the production of orthophotos.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: Flight Plans
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: map
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Type_of_Source_Media: chart
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: PLAN
+        Source_Contribution: Photo centers.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: Georeferenced RAW Imagery
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: raster digital data
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Type_of_Source_Media: stable-base material
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: OIMG1
+        Source_Contribution: This first level of georeferenced images are the product of using the ABGPS/IMU photo center information. They are individual single frame images that have yet to be mosaiced into manageable tiled orthos. File format for Georeferenced single frame images are 4-band, 12-bit, TIF/TFW and have a pixel resolution of 0.5? GSD. They are geoplaced by photocenter and rotation only, they are not orthorectified.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: McKim and Creed
+            Publication_Date: Unpublished Material
+            Title: Ground Control
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: spreadsheet
+            Publication_Information:
+              Publication_Place: None
+              Publisher: None
+        Type_of_Source_Media: CD-ROM
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: CNTRL
+        Source_Contribution: AMEC survey subconsultant, McKim & Creed, established a combination of photo identifiable and limited targeted ground control points to create a digital control file and control report used in the ortho production and QA processes. Predefined points within each collection block were measured using a combination of GPS and conventional survey techniques. These points along with their precise coordinates and elevations were used in the AT process and to check the horizontal accuracy of the resulting orthophotos. The X and Y coordinates were expressed in NC SPCS NAD83, 2007 (NSRS2007), US Survey Feet and Z elevation were expressed in NAVD 1988, GEOID09, US Survey Feet.  A total of 15 control points were established in Block 29, 16 control points in Block 25, 12 control points in Block 28, and 12 control points in Block 24.  Details of the Ground Control Survey Phase can be found in McKim and Creeds full control report.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Geospatial & Technology Management Office
+            Publication_Date: 2003
+            Title: NCFMP LIDAR digital elevation model
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: digital data
+            Publication_Information:
+              Publication_Place: Raleigh
+              Publisher: Geospatial & Technology Management Office
+        Type_of_Source_Media: disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: LIDAR DEM
+        Source_Contribution: The LIDAR elevation data used for the rectification of the orthophotos was provided by the Geospatial & Technology Management Office.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: SoftCopy Aerotriangulation
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: ASCII Report File
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Type_of_Source_Media: CD-ROM
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: ATSOL
+        Source_Contribution: SoftCopy Aerotriangulation is a computer process of densifying the ground control network from locations in a few of the digital images to numerous points in each digital image that is to be used in the mapping process. This process is dependent on the location and coordinate positions of the ABGPS and GPS photo control points as well as a precise camera calibration for the DMC camera used to capture the images.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: Geospatial & Technology Management Office
+            Publication_Date: 2010
+            Title: Tile index
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: vector digital data
+            Publication_Information:
+              Publication_Place: None
+              Publisher: None
+        Type_of_Source_Media:disc
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: index
+        Source_Contribution: The tile definition is used to cut orthorectified imagery into manageable, usable images.  Each tile is 5000' X 5000'.      
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: External Orientation File
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: tabular digital data
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Source_Scale_Denominator: 2400
+        Type_of_Source_Media: CD-ROM
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: publication date
+        Source_Citation_Abbreviation: EOFILE
+        Source_Contribution: Exterior Orientation (EO) Parameters (x,y,z,omega,phi,kappa) are produced to provide precise photocenter locations for each frame of imagery.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: Orthorectified Image
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: raster digital data
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Source_Scale_Denominator: 2400
+        Type_of_Source_Media: stable-base material
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: OIMG2
+        Source_Contribution: Orthorectified images have been geometrically corrected such that the scale is uniform. Each frame is adjusted for topographic relief, lens distortion and camera tilt.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: The Sanborn Map Company, Inc.
+            Publication_Date: Unpublished Material
+            Title: Tiled Orthophoto
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: raster digital data
+            Publication_Information:
+              Publication_Place: none
+              Publisher: none
+        Source_Scale_Denominator: 2400
+        Type_of_Source_Media: stable-base material
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: ground condition
+        Source_Citation_Abbreviation: OIMGTILE
+        Source_Contribution: The tiled orthophoto is the result of mosaicking orthorectified imagery and using the tile definition to cut into manageable, usable orthophotos.
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: NC DOT GIS
+            Publication_Date: 2009
+            Title: North Carolina County Boundaries with Shoreline
+            Edition: 1.0
+            Geospatial_Data_Presentation_Form: vector digital data
+            Publication_Information:
+              Publication_Place: Raleigh
+              Publisher: NC Department of Transportation, GIS Unit
+        Type_of_Source_Media: digital download
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2010
+          Source_Currentness_Reference: Ground condition
+        Source_Citation_Abbreviation: CB
+        Source_Contribution: The county boundaries are used to select tiles by county for packaging imagery for offline distribution.
+      Process_Step:
+        Process_Description: New digital, multispectral (R,G,B,NIR), 12 bit aerial imagery was obtained by Sanborn using a large format Z/I Digital Mapping Camera system (DMC) equipped with Airborne GPS/IMU covering the Mountain Region which was comprised of 20 AT blocks (Blocks 22-41). Buncombe County, NC falls substantially falls inside AT Block 29 with a small portion falling in Blocks 25, 28, and 24. Block 29 had a total of 101 flight lines consisting of 4442 stereo frame photographs. Block 25 has a total of 66 flight lines consisting of 3040 stereo frame photographs. Block 28 has a total of 84 flight lines consisting of 3287 stereo frame photographs. Block 24 has a total of 119 flight lines consisting of 4074 stereo frame photographs.  The imagery was acquired with a 4.7244" (120 m/m) focal length at an altitude above mean terrain of 5,000? to yield a raw pixel resolution of 0.5' suitable for photogrammetric mapping and orthophoto production. The imagery was collected during leaf off conditions in the winter/spring of 2010 under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, foliage, flooding, and excessive soil moisture. The sun angle threshold was 33 degrees. The imagery consisted of panchromatic, blue, green, red and near infrared bands. The three color bands and near infrared bands have been pan sharpened and archived as frame imagery. Only the RGB bands were used in the Orthorectification process, all four band exist in the raw georeferenced deliverables.
+        Source_Used_Citation_Abbreviation: PLAN
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: FRAME
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: AT Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: Imagery and AGPS/IMU data is downloaded from hard drive on the plane to the hard drive on the ground. AGPS/IMU mission data is processed together with continuously collected ground-based CORS GPS base station data in forward and reverse directions. This precisely determines the aerial camera's position and orientation in the terrain (project) coordinate system and allows for correct orientation of the imagery.
+        Source_Used_Citation_Abbreviation: PLAN
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: EOFILE
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: AT Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: Raw Imagery (FRAME) was Georeferenced using the ABGPS/IMU (EOFILE) data collected during the mission acquisition. A TFW file was produced by ImageStation Photogrammetric Manager (ISPM) using the correct photocenter location and rotation derived from the ABGPS/IMU data. They are not orthorectified.
+        Source_Used_Citation_Abbreviation: FRAME, EOFILE
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: OIMG1
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: AT Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: Softcopy aerotriangulation was performed by Sanborn to supplement and extend ground control and ABGPS / IMU control data. Aerotriangulation constructs a detailed model of the position of each pass point and provides residuals (and blunders) at all photo control locations. The end result is not only the referenced image, but also a coordinate listing of all of the points and corresponding residuals.  This process enabled photogrammetric production of the orthophotography requirements. Aerotriangulation for the Mountain Region was performed on 20 AT Blocks 22-41). Buncombe County, NC falls inside AT Block 29 with a small portion falling in Blocks 25, 28, and 24. The AT solution was developed to support the production of digital orthophotos that meet or exceed Class II accuracy standards where the limiting RMSE is not greater than 4? at a design scale of 1?=200?.  The AT computations were based on a projection of the North Carolina State Plane Coordinate System and a datum of NAD83, 2007 (NSRS2007). Vertical computations were based NAVD88, GEOID09. All final coordinate and elevation values were expressed in US Survey Feet. A digital image of the aerial photography was utilized to compare and measure the coordinates of selected pass points, (min. 9 per image) with the exception of end images, which have a minimum of 6 per image. Pass points were either dark spots on the ground, corner intersections of sidewalks, rocks, or road lines to name a few. These pass points and any ground based photo control points were measured using the calibration statistics to adjust measurements for the specific camera characteristics. Computer routines (relative and absolute) provide analysis of all pass points, tie points, ABGPS and photo control points. Aerial Triangulation constructs a detailed model of the position of each pass point and provides residuals at all photo control locations. Control points collected inaccurately in the field will result in an inefficient model and high residuals in the aerial Triangulation process. General blunders can be identified from their high residuals. The end result is not only the referenced image, but also a coordinate listing of all of the points and corresponding residuals. Once all flight lines have been checked for completeness, the strips are assembled into a block where a second degree block adjustment is run along with the full least squares bundle adjustment. Once the last set of blunders and adjustments are complete, a final block bundle adjustment is run to produce the final solution. The final adjustment of the block is accomplished by using a rigorous simultaneous least squares bundle adjustment. The general procedure is to remove all blunders from the data using automatic blunder detection. The bundle adjustment is then run with minimal ground control to test the photogrammetric measurements for consistency. Next, the full ground control data set, including the AGPS data, is added to the adjustment. The horizontal control is then tightened and the effect on the vertical control and the photogrammetric residuals are inspected.  The final adjustment makes sure that all of the measurements are in balance with each other and properly represent the actual conditions. Results of the Aerotriangulation Phase for Buncombe County can be found in Sanborns Blocks 29, 25, 28, and 24 AT reports.
+        Source_Used_Citation_Abbreviation: OIMG1, CNTRL, EOFILE
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: ATSOL
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: AT Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: DEM creation
+        Source_Used_Citation_Abbreviation: LIDAR DEM
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: LIDAR DEM
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: Orthophotography Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: The ortho rectification process required as input a digital elevation model (DEM), imagery (OIMG1), camera calibration and aerotriangulation exterior orientation file (ATSOL). The orthorectified imagery was produced for AT Blocks 29, 25, 28, and 24, which included Buncombe County, using Sanborn's proprietary APS orthophoto software module.
+        Source_Used_Citation_Abbreviation: OIMG1, LIDAR DEM, ATSOL
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: OIMG2
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: Orthophotography Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: Orthorectified imagery was mosaicked, locally color-balanced and cut to the 5,000 x 5,000 NC supplied tile definition boundaries (index) using Sanborn's proprietary APS orthophoto software modules. Tiled orthophotos undergo a rigorous manual QC process to evaluate for remaining hotspots (sun reflectance over water), tone quality, color balance and the feathering area along seamlines. Any imperfections at this point were manually edited in APS or Adobe PhotoShop software. Radiometry is verified by visual inspection of the digital orthophoto. Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching. The final 0.5 GSD, tiled, 3 band (R,G,B), 8 bit, ortho images were then converted to the required GeoTIFF file format. All tiled ortho images for AT Blocks 29, 25, 28, and 24 were separately transferred to external hard drives and delivered to the Projects Independent QA Team for qualitative and quantitative review. Once accepted by the QA Team, individual ortho tiles covering the boundary extents of Buncombe County were aggregated and distributed by the QA Team.
+        Source_Used_Citation_Abbreviation: OIMG2, index
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: OIMGTILE
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: Orthophotography Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: Horizontal quality control
+        Source_Used_Citation_Abbreviation: FRAME, CNTRL
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: RMSE
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: The Sanborn Map Company, Inc.
+            Contact_Position: Survey Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 1935 Jamboree Drive, Suite 100
+              City: Colorado Springs, CO
+              State_or_Province: Colorado
+              Postal_Code: 80920
+              Country: USA
+            Contact_Voice_Telephone: 1-866-726-2676
+            Contact_Facsimile_Telephone: 1-719-528-5093
+            Contact_Electronic_Mail_Address: coloradosprings@sanborn.com
+      Process_Step:
+        Process_Description: The tile orthophotos were run through a series of macro checks.  The macro checks consisted of the following checks; Geotiff header check to ensure all tiles were delivered as 'untiled' geotiffs, a check to ensure all geotiffs were delivered with the correct geotiff datum and projection information, a check to ensure all tiles were the correct size, and a check to ensure there were no void areas in the delivered tiles.  Any issues found during the macro check were cause for a full deliverable rejection and the entire dataset was updated and re-delivered.  Once the data passed the macro check it began a 25% visual QC check.  For each delivery block 25% of the tiles were selected and went through a 100% visual QC check at 1:1000 in ArcMap.  To select the 25% tiles a selection criteria was applied to each block.  The selection criteria included urban areas, points of interest, major highways, major railroad lines, and bridges.  Calls were made during the visual QC if there were major smears, road separations, wavy features, extreme radiometric balance differences, missing data, poor corrections, or artifacts found.  A call file was returned to each vendor and corrected imagery was provided.  The returned imagery was Cod and either accepted or a second round of calls returned.  Once all tiles of the 25% selected had passed the visual QC the block was accepted.
+        Source_Used_Citation_Abbreviation: OIMGTILE, CNTRL, index, CB
+        Process_Date: 2010
+        Source_Produced_Citation_Abbreviation: QC Report
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: Fugro EarthData, Inc.
+            Contact_Position: Orthophotography Department
+            Contact_Address:
+              Address_Type: mailing and physical address
+              Address: 7320 Executive Way
+              City: Frederick
+              State_or_Province: Maryland
+              Postal_Code: 21704
+              Country: USA
+            Contact_Voice_Telephone: 301-948-8550
+            Contact_Facsimile_Telephone: 301-963-2064
+            Contact_Electronic_Mail_Address: jknowlton@earthdata.com     
+      Process_Step:
+        Process_Description: The North Carolina Center for Geographic Information and Analysis visually inspected 5 percent of this county’s tiles as part of the data validation process. Each tile was assigned a score based on the following weighting criteria in order of high to low:  proximity to urban centers, number of bridge counts, proximity to or inclusion within municipal boundaries, railroad and primary road intersects, and processing block boundaries. As to not exclude tiles with low scores, tiles were grouped into High/Low categories based on mean score then 75 percent of the High and 25 percent of the Low categories were randomly selected for validation.  Each of the selected tiles was visually inspected for seam lines, image ghosting, edge displacement, twisted bridges, and for clouds, smoke or buildings obscuring the image and roadways.  To facilitate production, transaction tracking, and documentation, CGIA developed a database application that served two primary functions.  The first was to verify completeness for all required files including metadata, world files, TIFF, and SID.  The second was to provide a tool for documenting notes, inserting time stamps, recording coordinates for the locations of issues, and providing file links to issues documentation.
+        Source_Used_Citation_Abbreviation:  OIMGTIILE
+        Process_Date: 2011
+        Source_Produced_Citation_Abbreviation: VALID
+        Process_Contact:
+          Contact_Information:
+            Contact_Organization_Primary:
+              Contact_Organization: NC Center for Geographic Information and Analysis
+            Contact_Position: Tim Johnson, Director
+            Contact_Address:
+              Address_Type: mailing address
+              Address: 20322 Mail Service Center
+              City: Raleigh
+              State_or_Province: NC
+              Postal_Code: 27699-0322
+              Country: USA
+            Contact_Voice_Telephone: 919-754-6588
+            Contact_Facsimile_Telephone: 919-715-8551
+            Contact_Electronic_Mail_Address: tim.johnson@nc.gov	
+    Cloud_Cover: 0
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Raster
+    Raster_Object_Information:
+      Raster_Object_Type: Pixel
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Planar:
+        Grid_Coordinate_System:
+          Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+          State_Plane_Coordinate_System:
+            SPCS_Zone_Identifier: 3200 North Carolina
+            Lambert_Conformal_Conic:
+              Standard_Parallel: 34.333333
+              Longitude_of_Central_Meridian: -79.000000
+              Latitude_of_Projection_Origin: 33.750000
+              False_Easting: 2000000.0
+              False_Northing: 0.000000
+        Planar_Coordinate_Information:
+          Planar_Coordinate_Encoding_Method: Coordinate pair
+          Coordinate_Representation:
+            Abscissa_Resolution: 0.5
+            Ordinate_Resolution: 0.5
+          Planar_Distance_Units: U.S. Feet
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum of 1983
+        Ellipsoid_Name: Geodetic Reference System 80
+        Semi-major_Axis: 6378137.0
+        Denominator_of_Flattening_Ratio: 298.25722210088
+  Entity_and_Attribute_Information:
+    Overview_Description:
+      Entity_and_Attribute_Overview: Color orthophotos are comprised of pixels. Each pixel is assigned a value of 0 to 255. That number will refer to a color look-up table which contains red, green and blue (RGB) values, each from 0 to 255, for that pixel within the image.
+      Entity_and_Attribute_Detail_Citation: None
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: David Giordano
+          Contact_Person: NC Center for Geographic Information and Analysis
+        Contact_Position: Database Administrator
+        Contact_Address:
+          Address_Type: mailing
+          Address: 20322 Mail Service Center
+          City: Raleigh
+          State_or_Province: NC
+          Postal_Code: 27699-0322
+          Country: U.S.
+        Contact_Voice_Telephone: 919-754-6585
+        Contact_Facsimile_Telephone: 919-715-8551
+        Contact_Electronic_Mail_Address: david.giordano@nc.gov
+        Hours_of_Service: 0800-1700 M-F EST
+    Resource_Description: Buncombe County, NC 1:1200, 0.5-foot pixel digital color orthophotography (2010)
+    Distribution_Liability: The NC Center for Geographic Information and Analysis makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Also, this organization makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user.  Although these files have been processed successfully, no warranty is made by this organization regarding the use of these data on any other system, nor does the fact of distribution constitute or imply such a warranty.
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: MrSID
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: http://www.nconemap.gov
+            Access_Instructions: FTP
+          Offline_Option:
+            Offline_Media: CDROM, DVD, USB hard drive
+            Recording_Capacity:
+              Recording_Density: 700, 4400
+              Recording_Density_Units: mb
+            Recording_Format: Unknown
+      Fees: no charge for online distribution.  For offline options contact CGIA.
+      Ordering_Instructions: Contact CGIA
+    Custom_Order_Process: Contact CGIA for custom datasets
+    Technical_Prerequisites: software that can display a digital image
+    Available_Time_Period:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2010
+  Metadata_Reference_Information:
+    Metadata_Date: 20101231
+    Metadata_Review_Date: 2011
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Hope Morgan
+          Contact_Organization: Geospatial & Technology Management Office, NC Division of Emergency Management
+        Contact_Position: GIS Manager
+        Contact_Address:
+          Address_Type: mailing and physical
+          Address: 1812 Tillery Place, Suite 105
+          City: Raleigh
+          State_or_Province: NC
+          Postal_Code: 27604
+          Country: U.S.
+        Contact_Voice_Telephone: 919-715-5711 Ext. 104
+        Contact_Facsimile_Telephone: 919-715-0408
+        Contact_Electronic_Mail_Address: hmorgan@ncem.org
+        Hours_of_Service: 0900-1600 M-F EST
+    Metadata_Standard_Name: FGDC CSDGM
+    Metadata_Standard_Version: FGDC-STD-001-1998
